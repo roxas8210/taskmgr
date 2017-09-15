@@ -3,4 +3,5 @@ import { DomSanitizer } from '@angular/platform-browser';
 
 export const loadSvgResources = ( ir: MdIconRegistry, ds: DomSanitizer ) => {
     ir.addSvgIcon('gifts', ds.bypassSecurityTrustResourceUrl('assets/gifts.svg'));
+    ir.addSvgIcon('man', ds.bypassSecurityTrustResourceUrl('assets/man.svg'));
 };
